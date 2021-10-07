@@ -135,21 +135,3 @@ history = model.fit_generator(generator=train_set,
                                 validation_steps = test_set.n//test_set.batch_size,
                                 callbacks=callbacks_list
                                 )
-
-# Plotting Accuracy & Loss
-plt.style.use('dark_background')
-
-
-
-
-
-
-
-
-
-plt.figure(figsize=(20,10))
-plt.subplot(1, 2, 1)
-plt.suptitle('Optimizer : Adam', fontsize=10)
-plt.ylabel('Loss', fontsize=16)
-=======
-
