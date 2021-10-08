@@ -47,5 +47,5 @@ while True:
     if cv2.waitKey(1) & 0xFF):
            break
 
-
+cap.release()
 cv2.destroyAllWindows()
