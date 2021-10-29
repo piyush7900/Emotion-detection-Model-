@@ -5,8 +5,6 @@ import pandas as pd
 import seaborn as sns
 import os
 
-# Importing Deep Learning Libraries
-
 from keras.preprocessing.image import load_img, img_to_array
 from keras.preprocessing.image import ImageDataGenerator
 from keras.layers import Dense,Input,Dropout,GlobalAveragePooling2D,Flatten,Conv2D,BatchNormalization,Activation,MaxPooling2D
